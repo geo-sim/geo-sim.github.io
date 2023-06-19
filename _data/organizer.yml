@@ -1,0 +1,103 @@
+years:
+- year: 2023
+  general_chair:
+    - name: Joon-Seok Kim
+      affiliation: Oak Ridge National Laboratory
+      department: Geospatial Science and Human Security
+      email_name: kimj1
+      domain: ornl.gov
+  pc_chair:
+    - name: Taylor Anderson
+      affiliation: George Mason Uinversity
+      department: Geography and Geoinformation Science
+      email_name: tander6
+      domain: gmu.edu
+    - name: Ashwin Shashidharan
+      affiliation: ESRI
+      email_name: ashashidharan
+      domain: esri.com
+    - name: Andreas Zufle
+      affiliation: Emory University
+      department: Computer Science
+      email_name: azufle
+      domain: emory.edu
+  steering_committee:
+    - name: Andrew Crooks
+      affiliation: University at Bufflaro
+      department: Geography
+    - name: Suzana Dragicevic
+      affiliation: Simon Fraser University
+      department: Geography
+    - name: Hamdi Kavak
+      affiliation: George Mason University
+      department: Computational and Data Sciences
+    - name: Dieter Pfoser
+      affiliation: George Mason University
+      department: Geography and Geoinformation Science
+    - name: Carola Wenk
+      affiliation: Tulane University
+      department: Computer Science
+  program_committee:
+    - name: TBD
+
+
+- year: 2022
+  general_chair:
+    - name: Joon-Seok Kim
+      affiliation: Oak Ridge National Laboratory
+      department: Geospatial Science and Human Security
+  pc_chair:
+    - name: Taylor Anderson
+      affiliation: George Mason Uinversity
+      department: Geography and Geoinformation Science
+    - name: Alexander Hohl
+      affiliation: University of Utah
+      department: Geography
+    - name: Ashwin Shashidharan
+      affiliation: ESRI
+  steering_committee:
+    - name: Andrew Crooks
+      affiliation: University at Bufflaro
+      department: Geography
+    - name: Suzana Dragicevic
+      affiliation: Simon Fraser University
+      department: Geography
+    - name: Hamdi Kavak
+      affiliation: George Mason University
+      department: Computational and Data Sciences
+    - name: Dieter Pfoser
+      affiliation: George Mason University
+      department: Geography and Geoinformation Science
+    - name: Carola Wenk
+      affiliation: Tulane University
+      department: Computer Science
+    - name: Andreas Zufle
+      affiliation: Emory University
+      department: Computer Science
+  program_committee:
+    - name: Jared Aldstadt
+      affiliation: University at Buffalo
+    - name: Thomas Brinkhoff
+      affiliation: Jade University Oldenburg
+    - name: Jeon-Young Kang
+      affiliation: Kongju National University
+    - name: Philippe Giabbanelli
+      affiliation: Miami University
+    - name: Chathika Gunaratne
+      affiliation: Oak Ridge National Laboratory
+    - name: Mona Hemmati
+      affiliation: Columbia University
+    - name: Hyunjee Jin
+      affiliation: Siemens
+    - name: Arika Ligmann-Zielinska
+      affiliation: Michigan State University
+    - name: Liang Mao
+      affiliation: University of Florida
+    - name: Samarth Swarup
+      affiliation: University of Virginia
+    - name: Wenwu Tang
+      affiliation: University of North Carolina at Charlotte
+    - name: Gautam Thakur
+      affiliation: Oak Ridge National Laboratory
+    - name: Sara Wise
+      affiliation: University College London

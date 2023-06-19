@@ -1,25 +1,46 @@
 days:
 - name: Monday
   abbr: Mo
-  date: 2020-01-31
+  date: 2023-11-13
+  year: 2023
+  rooms:
+  - name: TBD
+    talks:
+      - name: TBD
+        time_start: '09:00'
+        time_end: '10:00'
+      - name: TBD
+        time_start: '10:00'
+        time_end: '11:00'
+      - name: TBD
+        time_start: '11:00'
+        time_end: '12:00'
+
+
+# 2022
+- name: Tuesday
+  abbr: Tu
+  date: 2022-11-01
+  year: 2022
   rooms:
   - name: Room A
     talks:
-      - name: Vim Impetus Placerat Cotidieque Ad
-        time_start: '12:00'
-        time_end: '12:45'
-      - name: Condimentum Vitae Sapien Pellentesque
-        time_start: '12:45'
-        time_end: '13:30'
+      - name: Opening Remarks
+        time_start: '14:00'
+        time_end: '14:05'
+      - name: Geosimulation Techniques for Improving Community Resilience in Floods under a Changing Climate
+        time_start: '14:05'
+        time_end: '15:05'
+      - name: "Mesa-Geo: A GIS Extension for the Mesa Agent-Based Modeling Framework in Python"
+        time_start: '15:05'
+        time_end: '15:35'
+      - name: Break
+        time_start: '15:35'
+        time_end: '16:05'
+      - name: Towards Geographically Robust Statistically Significant Regional Co-location Pattern Detection
+        time_start: '16:05'
+        time_end: '16:35'
+      - name: Spatial Cooperative Scenario Simulation for Infrastructure Siting in Guangdong-Hongkong-Macao Greater Bay Area
+        time_start: '16:35'
+        time_end: '16:55'
 
-  - name: Room B
-    talks:
-      - name: Arcu Non Odio
-        time_start: '12:00'
-        time_end: '13:00'
-
-  - name: Room C
-    talks:
-      - name: Eu Nisl Nunc Mi Ipsum Faucibus
-        time_start: '13:30'
-        time_end: '14:30'

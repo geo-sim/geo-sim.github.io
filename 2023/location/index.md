@@ -1,5 +1,6 @@
 ---
 layout: location
+year: 2023
 ---
 
 How to get to the conference

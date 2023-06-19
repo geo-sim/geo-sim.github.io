@@ -12,8 +12,11 @@
 
   <div class="speakerlist">
     {% assign cur_letter = false %}
-    {% assign speakers = site.speakers | sort_natural: 'last_name' %}
+    {% assign speakers = site.data.speakers | sort_natural: 'last_name' %}
     {% for speaker in speakers %}
+      {%- if speaker.year != current_year -%}
+        {%- continue -%}
+      {%- endif -%}
 
       {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
       {% if cur_letter != last_letter %}

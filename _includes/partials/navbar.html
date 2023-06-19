@@ -9,6 +9,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
+        {% include partials/get_year.html %}
         {%- for link in site.conference.navigation.links -%}
 
           {%- if link.menu %}

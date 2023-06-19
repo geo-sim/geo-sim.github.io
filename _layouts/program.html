@@ -1,5 +1,18 @@
 {% include partials/header.html %}
-  {% assign nbr_days = site.data.program.days | size -%}
+
+{% if current_year %}
+  {% assign newArray = '' | split: '' %}
+  {% for d in site.data.program.days %}
+    {% if d.year == current_year %}
+      {% assign newArray = newArray | push: d %}
+    {% endif %}
+  {% endfor %}
+  {% assign program_days = newArray %}
+{% else %}
+  {% assign program_days = site.data.program.days %}
+{% endif %}
+
+  {% assign nbr_days = program_days | size -%}
 
   <h1 class="display-5 {% if nbr_days > 1 -%} mb-2 {%- else -%} mb-4 {%- endif %}">
     {%- if page.title -%}
@@ -13,7 +26,7 @@
 
   {%- if nbr_days > 1 %}
     <ul class="nav justify-content-center mb-3 btn-group" id="day-list" role="tablist">
-      {%- for d in site.data.program.days -%}
+      {%- for d in program_days -%}
         {%- include partials/get_day_hash.html %}
         <li class="nav-item" role="presentation">
           <a class="nav-link btn btn-outline-secondary {%- if forloop.index == 1 %} active{% endif %}" id="tab-{{ day_hash }}" data-toggle="tab" {%- if d.date %} data-date="{{ d.date }}" {%- endif %} href="#{{ day_hash }}" role="tab" aria-controls="{{ day_hash }}" aria-selected="{% if forloop.index == 1 %}true{% else %}false{% endif %}">{{ day_name }}</a>
@@ -23,7 +36,7 @@
     <div class="tab-content" id="day-content">
   {%- endif %}
 
-  {%- for d in site.data.program.days -%}
+  {%- for d in program_days -%}
     {%- if nbr_days > 1 -%}
       {%- include partials/get_day_hash.html %}
       <div class="tab-pane {%- if forloop.index == 1 %} active{% endif %}" id="{{ day_hash }}" role="tabpanel" aria-labelledby="tab-{{ day_hash }}">
@@ -37,7 +50,7 @@
             <th class="col-space p-0" scope="col"></th>
             {%- assign nbr_rooms = d.rooms | size -%}
             {%- for r in d.rooms -%}
-              {%- assign room = site.rooms | where: 'name', r.name | first %}
+              {%- assign room = site.data.rooms | where: 'name', r.name | first %}
               <th scope="col" class="text-center">
                 {%- if room.hide or site.conference.location.hide -%}
                   {{- room.name -}}
@@ -107,11 +120,11 @@
               <td class="col-space p-0"></td>
 
               {%- for r in d.rooms -%}
-                {%- assign room = site.rooms | where: 'name', r.name | first -%}
+                {%- assign room = site.data.rooms | where: 'name', r.name | first -%}
 
                 {%- assign active_talk = false -%}
                 {%- for t in r.talks -%}
-                  {%- assign talk = site.talks | where: 'name', t.name | first -%}
+                  {%- assign talk = site.data.talks | where: 'name', t.name | first -%}
 
                   {%- include partials/get_talk_time.html -%}
 

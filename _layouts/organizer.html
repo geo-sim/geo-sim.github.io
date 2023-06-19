@@ -1,0 +1,77 @@
+{% include partials/header.html %}
+
+{% if page.title -%}
+  <h1 class="font-weight-light mb-2">{{ page.title }}</h1>
+{%- endif %}
+
+{%- include partials/get_year.html -%}
+{%- assign years = site.data.organizer.years -%}
+
+{%- for organizers in years -%}
+  {%- if organizers.year != current_year -%}
+    {%- continue -%}
+  {%- endif -%}
+
+  {%- if organizers.general_chair -%}
+    <h4>General Chair</h4>
+    <ui>
+    {%- for org in organizers.general_chair -%}
+      <li><b>{{org.name}}</b>{% if org.affiliation %}, {{org.affiliation}}{% endif %}{% if org.department %}, {{org.department}}{% endif %}
+      {%- if org.email_name and org.domain -%}
+      , <a href="#" class="cryptedmail"
+        data-name="{{ org.email_name }}"
+        data-domain="{{ org.domain }}"
+        onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain; return false;"></a>
+      {%- endif -%}
+      </li>
+    {%- endfor -%}
+    </ui>
+    <br />
+  {%- endif -%}
+
+  {% if organizers.pc_chair %}
+    <h4>PC Co-chairs</h4>
+    <ui>
+    {%- for org in organizers.pc_chair -%}
+      <li><b>{{org.name}}</b>{% if org.affiliation %}, {{org.affiliation}}{% endif %}{% if org.department %}, {{org.department}}{% endif %}
+      {%- if org.email_name and org.domain -%}
+      , <a href="#" class="cryptedmail"
+        data-name="{{ org.email_name }}"
+        data-domain="{{ org.domain }}"
+        onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain; return false;"></a>
+      {%- endif -%}
+      </li>
+    {%- endfor -%}
+    </ui>
+    <br />
+  {% endif %}
+
+  {%- if organizers.steering_committee -%}
+    <h4>Steering Committee</h4>
+    <ui>
+    {%- for org in organizers.steering_committee -%}
+      <li><b>{{org.name}}</b>{% if org.affiliation %}, {{org.affiliation}}{% endif %}{% if org.department %}, {{org.department}}{% endif %}</li>
+    {%- endfor -%}
+    </ui>
+    <br />
+  {%- endif -%}
+
+  {%- if organizers.program_committee -%}
+    <h4>Program Committee</h4>
+    <ui>
+    {%- for org in organizers.program_committee -%}
+      <li><b>{{org.name}}</b>{% if org.affiliation %}, {{org.affiliation}}{% endif %}{% if org.department %}, {{org.department}}{% endif %}</li>
+    {%- endfor -%}
+    </ui>
+    <br />
+  {%- endif -%}
+{%- endfor -%}
+
+{{ content }}
+
+
+{% if page.map %}
+  <div id="map" class="mt-4 mb-3"></div>
+{% endif %}
+
+{% include partials/footer.html %}

@@ -8,10 +8,14 @@
       {% elsif page.title %}
         {{ page.title }}
       {% else %}
-        {{ site.title }}
+        {{ site.subtitle }}
       {% endif %}
     </h1>
-    {% if site.description != none %}
+    {% if page.description != none %}
+      <p class="lead">
+        {{ page.description | markdownify | replace: '<p>', '<p class="lead">' }}
+      </p>
+    {% elsif site.description != none %}
       <p class="lead">
         {{ site.description | markdownify | replace: '<p>', '<p class="lead">' }}
       </p>
@@ -21,7 +25,38 @@
 
     {{ content }}
 
-    {% if site.conference.main.links %}
+    {% if page.main.links %}
+      <div class="lead d-print-none">
+      {% assign btn_default = 'btn btn-outline-primary btn-lg mt-2 ml-1' %}
+      {% for link in page.main.links %}
+
+        {% if link.menu %}
+          <div class="dropdown d-inline">
+            <a class="{{ btn_default }} dropdown-toggle" href="#" role="button" id="main-dropdown{{ forloop.index0 }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{ link.name }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="main-dropdown{{ forloop.index0 }}">
+              {% assign parent_link = link %}
+              {% for link in parent_link.menu %}
+                {% assign link_styleclass = "dropdown-item" %}
+                {% include partials/get_link.html %}
+                {{ link_tag }}
+                  {{ link.name }}
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+        {% else %}
+          {% assign link_styleclass = btn_default %}
+          {% include partials/get_link.html %}
+          {{ link_tag }}
+            {{ link.name }}
+          </a>
+        {% endif %}
+      {% endfor %}
+      </p>
+
+    {% elsif site.conference.main.links %}
       <div class="lead d-print-none">
       {% assign btn_default = 'btn btn-outline-primary btn-lg mt-2 ml-1' %}
       {% for link in site.conference.main.links %}

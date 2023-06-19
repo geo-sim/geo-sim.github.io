@@ -248,3 +248,7 @@ main.container img {
     display: inline-block !important;
   }
 }
+
+.cryptedmail:after {
+  content: attr(data-name) "@" attr(data-domain); 
+}

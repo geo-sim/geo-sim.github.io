@@ -1,0 +1,105 @@
+- name: Joon-Seok Kim
+  first_name: Joon-Seok
+  last_name: Kim
+  year: 2023
+  links:
+    - name: Profile
+      absolute_url: https://joonseok.org
+
+- name: TBD
+  first_name: TBD
+  #last_name: TBD
+  hide: true
+  year: 2023
+
+
+# 2022
+
+- name: Mona Hemmati
+  first_name: Mona
+  last_name: Hemmati
+  year: 2022
+  links: 
+    - name: Profile
+      absolute_url: https://github.com
+
+
+- name: Boyu Wang
+  first_name: Boyu
+  last_name: Wang
+  year: 2022
+  affiliation: University at Buffalo
+
+- name: Vincent Hess
+  first_name: Vincent
+  last_name: Hess
+  year: 2022
+
+- name: Andrew Crooks
+  first_name: Andrew
+  last_name: Crooks
+  year: 2022
+  affiliation: University at Buffalo
+
+- name: Subhankar Ghosh 
+  first_name: Subhankar
+  last_name: Ghosh 
+  year: 2022
+  affiliation: University of Minnesota
+- name: Jayant Gupta 
+  first_name: Jayant
+  last_name: Gupta 
+  year: 2022
+  affiliation: University of Minnesota
+- name: Arun Sharma 
+  first_name: Arun
+  last_name: Sharma 
+  year: 2022
+  affiliation: University of Minnesota
+- name: Shuai An 
+  first_name: Shuai
+  last_name: An 
+  year: 2022
+  affiliation: University of Minnesota
+- name: Shashi Shekhar
+  first_name: Shashi
+  last_name: Shekhar 
+  year: 2022
+  affiliation: University of Minnesota
+
+
+- name: Mingxiao Li
+  first_name: Mingxiao
+  last_name: Li
+  year: 2022
+  affiliation: Shenzhen University
+- name: Wei Gao
+  first_name: Wei
+  last_name: Gao
+  year: 2022
+  affiliation: Shenzhen University
+- name: Wei Tu
+  first_name: Wei
+  last_name: Tu
+  year: 2022
+  affiliation: Shenzhen University
+- name: 
+  first_name: 
+  last_name: 
+  year: 2022
+  affiliation: Shenzhen University
+- name: Zhengdong Huang
+  first_name: Zhengdong
+  last_name: Huang
+  year: 2022
+  affiliation: Shenzhen University
+- name: Jun Yue
+  first_name: Jun Yue
+  last_name: Jun Yue
+  year: 2022
+  affiliation: Urban Planning and Design Institute of Shenzhen
+- name: Qingquan Li
+  first_name: Qingquan
+  last_name: Li
+  year: 2022
+  affiliation: Shenzhen University

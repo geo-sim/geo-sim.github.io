@@ -7,7 +7,14 @@
   {%- assign link_href = link.absolute_url -%}
 
 {%- elsif link.relative_url -%}
-  {%- assign link_href = link.relative_url | prepend: site.baseurl -%}
+  {%- if current_year -%}
+    {%- assign link_href = link.relative_url | prepend: current_year | prepend: '/' | prepend: site.baseurl -%}
+  {%- else -%}
+    {%- assign link_href = link.relative_url | prepend: site.baseurl -%}
+  {%- endif -%}
+
+{%- elsif link.relative_site_url -%}
+  {%- assign link_href = link.relative_site_url | prepend: site.baseurl -%}
 
 {%- elsif link.file -%}
   {%- assign link_icon = "file-alt" -%}

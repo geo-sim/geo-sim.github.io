@@ -1,0 +1,65 @@
+- name: Large Scale GeoSimulation
+  speakers:
+    - Joon-Seok Kim
+  categories:
+    - Keynote
+    - Talk
+  year: 2023
+
+- name: TBD
+  speakers:
+    - TBD
+  categories:
+    - TBD
+  year: 2023
+
+
+- name: Opening Remarks
+  year: 2022
+
+- name: Geosimulation Techniques for Improving Community Resilience in Floods under a Changing Climate
+  speakers:
+    - Mona Hemmati
+  categories:
+    - Keynote
+  year: 2022
+
+- name: "Mesa-Geo: A GIS Extension for the Mesa Agent-Based Modeling Framework in Python"
+  speakers:
+    - Boyu Wang
+    - Vincent Hess
+    - Andrew Crooks
+  categories:
+    - Presenter
+    - Research
+  year: 2022
+
+- name: Towards Geographically Robust Statistically Significant Regional Co-location Pattern Detection
+  speakers:
+    - Subhankar Ghosh
+    - Jayant Gupta
+    - Arun Sharma
+    - Shuai An
+    - Shashi Shekhar
+  categories:
+    - Presenter
+    - Research
+  year: 2022
+
+- name: Spatial Cooperative Scenario Simulation for Infrastructure Siting in Guangdong-Hongkong-Macao Greater Bay Area
+  speakers:
+    - Mingxiao Li
+    - Wei Gao
+    - Wei Tu
+    - Zhengdong Huang
+    - Jun Yue
+    - Qingquan Li
+  categories:
+    - Presenter
+    - Short Paper
+  year: 2022
+
+- name: Break
+  categories:
+    - Break
+  year: 2022
