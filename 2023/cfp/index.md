@@ -68,11 +68,11 @@ November 13, 2023
 
 
 ## Submission site ##
-TBD
+[https://easychair.org/conferences/?conf=geosim2023](https://easychair.org/conferences/?conf=geosim2023)
 
 ## Paper Format ##
 
-Manuscripts should be submitted in PDF format and formatted using the ACM camera-ready templates available at [http://www.acm.org/publications/proceedings-template](http://www.acm.org/publications/proceedings-template). Submissions to GeoSim are single-blind -- i.e., the names and affiliations of the authors should be listed in the submitted version.
+Manuscripts should be submitted in PDF format and formatted using the ACM camera-ready templates available at [http://www.acm.org/publications/proceedings-template](http://www.acm.org/publications/proceedings-template). For latex users, please make sure that you choose `sigconf` type (e.g., `\documentclass[sigconf]{acmart}`) in your latex file. Submissions to GeoSim are single-blind -- i.e., the names and affiliations of the authors should be listed in the submitted version.
 
 ---
 
