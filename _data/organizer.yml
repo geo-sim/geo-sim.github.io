@@ -38,7 +38,32 @@ years:
       affiliation: Tulane University
       department: Computer Science
   program_committee:
-    - name: TBD
+    - name: Jeon-Young Kang
+      affiliation: Kyung Hee University
+      # department: Department of Geography
+    - name: Nick Malleson
+      affiliation: University of Leeds
+    - name: Thomas Brinkhoff
+      affiliation: Jade University
+    - name: Paul Torrens
+      affiliation: New York University
+      # department: Department of Computer Science and Engineering
+    - name: Licia Amichi
+      affiliation: Oak Ridge National Laboratory
+    - name: Alexander Hohl
+      affiliation: The University of Utah
+    - name: Samarth Swarup
+      affiliation: University of Virginia
+    - name: Hyunjee Jin
+      affiliation: Siemens
+    - name: Jared Aldstadt
+      affiliation: University at Buffalo
+    - name: Sarah Wise
+      affiliation: University College London
+    - name: Philippe Giabbanelli
+      affiliation: Miami University
+    - name: Arika Ligmann-Zielinska
+      affiliation: Michigan State University
 
 
 - year: 2022
