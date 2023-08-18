@@ -3,7 +3,7 @@ years:
   general_chair:
     - name: Joon-Seok Kim
       affiliation: Oak Ridge National Laboratory
-      department: Geospatial Science and Human Security
+      department: Geospatial Science and Human Security Division
       email_name: kimj1
       domain: ornl.gov
   pc_chair:
@@ -38,32 +38,32 @@ years:
       affiliation: Tulane University
       department: Computer Science
   program_committee:
-    - name: Jeon-Young Kang
-      affiliation: Kyung Hee University
-      # department: Department of Geography
-    - name: Nick Malleson
-      affiliation: University of Leeds
-    - name: Thomas Brinkhoff
-      affiliation: Jade University
-    - name: Paul Torrens
-      affiliation: New York University
-      # department: Department of Computer Science and Engineering
-    - name: Licia Amichi
-      affiliation: Oak Ridge National Laboratory
-    - name: Alexander Hohl
-      affiliation: The University of Utah
-    - name: Samarth Swarup
-      affiliation: University of Virginia
-    - name: Hyunjee Jin
-      affiliation: Siemens
     - name: Jared Aldstadt
       affiliation: University at Buffalo
-    - name: Sarah Wise
-      affiliation: University College London
+    - name: Licia Amichi
+      affiliation: Oak Ridge National Laboratory
+    - name: Thomas Brinkhoff
+      affiliation: Jade University
     - name: Philippe Giabbanelli
       affiliation: Miami University
+    - name: Alexander Hohl
+      affiliation: The University of Utah
+    - name: Hyunjee Jin
+      affiliation: Siemens
+    - name: Jeon-Young Kang
+      affiliation: Kyung Hee University
     - name: Arika Ligmann-Zielinska
       affiliation: Michigan State University
+    - name: Nick Malleson
+      affiliation: University of Leeds
+    - name: Samarth Swarup
+      affiliation: University of Virginia
+    - name: Wenwu	Tang
+      affiliation: University of North Carolina at Charlotte
+    - name: Paul Torrens
+      affiliation: New York University
+    - name: Sarah Wise
+      affiliation: University College London
 
 
 - year: 2022
