@@ -52,19 +52,20 @@ including High-Performance Computing (HPC), cloud computing (SaaS, PaaS, IaaS), 
 computing, GPU, TPU, etc, advanced computing has become more prevalent and available ever. Therefore, the
 special topic for GeoSim 2023 brings to focus large-scale geospatial simulation. We hope to attract participants
 to give paper presentations that showcase a variety of challenges, applications, and methodologies in large-scale
-geospatial simulation
+geospatial simulation.
 
 
 ## Important Date ##
 
 #### Submission deadline ####
-September 1, 2023
+- ~~September 1, 2023~~
+- September 15, 2023
 
 #### Notification ####
-TBD
+- October 9, 2023
 
 #### Workshop date ####
-November 13, 2023
+- November 13, 2023
 
 
 ## Submission site ##
@@ -73,6 +74,9 @@ November 13, 2023
 ## Paper Format ##
 
 Manuscripts should be submitted in PDF format and formatted using the ACM camera-ready templates available at [http://www.acm.org/publications/proceedings-template](http://www.acm.org/publications/proceedings-template). For latex users, please make sure that you choose `sigconf` type (e.g., `\documentclass[sigconf]{acmart}`) in your latex file. Submissions to GeoSim are single-blind -- i.e., the names and affiliations of the authors should be listed in the submitted version.
+
+## Contact ##
+Please contact geosim2023@easychair.org if you have questions about GeoSim 2023.
 
 ---
 
