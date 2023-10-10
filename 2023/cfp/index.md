@@ -62,7 +62,8 @@ geospatial simulation.
 - September 15, 2023
 
 #### Notification ####
-- October 9, 2023
+- ~~October 9, 2023~~
+- October 10, 2023
 
 #### Workshop date ####
 - November 13, 2023

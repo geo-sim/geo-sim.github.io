@@ -7,11 +7,6 @@ years:
       email_name: kimj1
       domain: ornl.gov
   pc_chair:
-    - name: Taylor Anderson
-      affiliation: George Mason Uinversity
-      department: Geography and Geoinformation Science
-      email_name: tander6
-      domain: gmu.edu
     - name: Ashwin Shashidharan
       affiliation: ESRI
       email_name: ashashidharan
@@ -42,10 +37,14 @@ years:
       affiliation: University at Buffalo
     - name: Licia Amichi
       affiliation: Oak Ridge National Laboratory
+    - name: Taylor Anderson
+      affiliation: George Mason Uinversity
     - name: Thomas Brinkhoff
       affiliation: Jade University
     - name: Philippe Giabbanelli
       affiliation: Miami University
+    - name: Su Yeon Han
+      affiliation: Texas State University
     - name: Alexander Hohl
       affiliation: The University of Utah
     - name: Hyunjee Jin
