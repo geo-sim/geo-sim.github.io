@@ -12,35 +12,33 @@
 
   <div class="speakerlist">
     {% assign cur_letter = false %}
-    {% assign speakers = site.data.speakers | sort_natural: 'last_name' %}
+    {% assign speakers = site.speakers | sort_natural: 'last_name' %}
     {% for speaker in speakers %}
-      {%- if speaker.year != current_year -%}
-        {%- continue -%}
-      {%- endif -%}
+      {%- if speaker.year contains current_year or speaker.year == current_year -%}
 
-      {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
-      {% if cur_letter != last_letter %}
-        {% if cur_letter %}
-            </ul>
-          </div>
+        {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
+        {% if cur_letter != last_letter %}
+          {% if cur_letter %}
+              </ul>
+            </div>
+          {% endif %}
+
+          {% assign cur_letter = last_letter %}
+          <div class="speakergroup">
+            <h3>{{ cur_letter }}</h3>
+            <ul class="list-unstyled">
         {% endif %}
 
-        {% assign cur_letter = last_letter %}
-        <div class="speakergroup">
-          <h3>{{ cur_letter }}</h3>
-          <ul class="list-unstyled">
-      {% endif %}
-
-      <li class="font-weight-light">
-        {% if speaker.hide %}
-          {{ speaker.first_name }} {{ speaker.last_name }}
-        {% else %}
-          <a href="{{ speaker.url | prepend: site.baseurl }}">
+        <li class="font-weight-light">
+          {% if speaker.hide %}
             {{ speaker.first_name }} {{ speaker.last_name }}
-          </a>
-        {% endif %}
-      </li>
-
+          {% else %}
+            <a href="{{ speaker.url | prepend: site.baseurl }}">
+              {{ speaker.first_name }} {{ speaker.last_name }}
+            </a>
+          {% endif %}
+        </li>
+      {% endif %}
     {% endfor %}
 
       </ul>

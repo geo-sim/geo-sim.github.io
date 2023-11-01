@@ -11,6 +11,12 @@
     {{ speaker.first_name }} {{ speaker.last_name }}
   </h1>
 
+  {% if speaker.affiliation %}
+    <h4 class="font-weight-light mb-3">
+      {% if speaker.department %}{{speaker.department}}, {% endif %} {{ speaker.affiliation }}
+    </h4>
+  {% endif %}
+
   {{ content }}
 
   {% include partials/get_link_types.html %}
@@ -102,7 +108,7 @@
   {% endif %}
 
   <p class="d-print-none mt-5">
-    <a href="{{ page.collection | prepend: '/' | prepend: site.baseurl }}" class="btn btn-light">
+    <a href="{{ page.collection | prepend: '/' | prepend: page.year | prepend: '/' | prepend: site.baseurl }}" class="btn btn-light">
       <i class="fas fa-users"></i>&nbsp;{{ site.data.lang[site.conference.lang].overview | default: "Overview" }}
     </a>
   </p>

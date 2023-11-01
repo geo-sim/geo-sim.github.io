@@ -50,7 +50,7 @@
             <th class="col-space p-0" scope="col"></th>
             {%- assign nbr_rooms = d.rooms | size -%}
             {%- for r in d.rooms -%}
-              {%- assign room = site.data.rooms | where: 'name', r.name | first %}
+              {%- assign room = site.rooms | where: 'name', r.name | first %}
               <th scope="col" class="text-center">
                 {%- if room.hide or site.conference.location.hide -%}
                   {{- room.name -}}
@@ -120,11 +120,11 @@
               <td class="col-space p-0"></td>
 
               {%- for r in d.rooms -%}
-                {%- assign room = site.data.rooms | where: 'name', r.name | first -%}
+                {%- assign room = site.rooms | where: 'name', r.name | first -%}
 
                 {%- assign active_talk = false -%}
                 {%- for t in r.talks -%}
-                  {%- assign talk = site.data.talks | where: 'name', t.name | first -%}
+                  {%- assign talk = site.talks | where: 'name', t.name | first -%}
 
                   {%- include partials/get_talk_time.html -%}
 

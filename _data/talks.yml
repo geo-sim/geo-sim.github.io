@@ -6,6 +6,44 @@
     - Talk
   year: 2023
 
+- name: Opening Remarks
+  year: 2023
+
+- name: A Framework for Simulating Emergent Health Behaviors in Spatial Agent-Based Models of Disease Spread
+  speakers:
+    - Emma Von Hoene
+    - Amira Roess
+    - Shivani Achuthan
+    - Taylor Anderson
+  categories:
+    - Presentation
+    - Research
+  year: 2023
+
+- name: 'PhobosBC: A Blockchain-based Crowdsourced Post-disaster Mapping System and its Agent-based Simulation'
+  speakers:
+    - Annika Bonerath
+    - Yannick Orgeig
+    - Jan-Henrik Haunert
+    - Youness Dehbi
+  categories:
+    - Presentation
+    - Research
+  year: 2023
+
+- name: Integrating Optimization-Based Spatial Unit Allocation into a Multi-Agent Model for the Simulation of Urban Growth
+  speakers:
+    - Raunak Sarbajna
+    - Christoph F Eick
+    - Aron Laszka
+  categories:
+    - Presentation
+    - Short Paper
+  year: 2023
+
+- name: Closing Remarks
+  year: 2023
+
 - name: TBD
   speakers:
     - TBD
@@ -30,7 +68,7 @@
     - Vincent Hess
     - Andrew Crooks
   categories:
-    - Presenter
+    - Presentation
     - Research
   year: 2022
 
@@ -42,7 +80,7 @@
     - Shuai An
     - Shashi Shekhar
   categories:
-    - Presenter
+    - Presentation
     - Research
   year: 2022
 
@@ -55,7 +93,7 @@
     - Jun Yue
     - Qingquan Li
   categories:
-    - Presenter
+    - Presentation
     - Short Paper
   year: 2022
 
