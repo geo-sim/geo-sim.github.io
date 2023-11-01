@@ -70,14 +70,14 @@ conference:
         relative_url: /cfp/
       - name: Organizers
         relative_url: /organizers/
-      # - name: Program
-      #   relative_url: /program/
-      # - name: Talks
-      #   relative_url: /talks/
-      # - name: Speakers
-      #   relative_url: /speakers/
-      # - name: Location
-      #   relative_url: /location/
+      - name: Program
+        relative_url: /program/
+      - name: Talks
+        relative_url: /talks/
+      - name: Speakers
+        relative_url: /speakers/
+      - name: Location
+        relative_url: /location/
       - name: Previous
         menu:
           - name: 2023 (current)
@@ -107,21 +107,27 @@ conference:
     #logo:
       #img: 'acmsigspatial-full.png'
     links:
-      - name: Call for paper
-        relative_url: /cfp/
+      # - name: Call for paper
+      #   relative_url: /cfp/
+      - name: Program
+        relative_url: /program/
       - name: SIGSPATIAL 2023
         absolute_url: https://sigspatial2023.sigspatial.org/
-      # - name: Program
       #   disabled: true
       #   absolute_url: ''
 
   # Information boxes
   info_bars:
-    - title: GeoSim 2023 is now open!
+    - title: GeoSim 2023 Program is updated!
       color: primary
       main_only: true
       text: |
-        Please check out Call for Paper.
+        Please check out Program.
+    # - title: GeoSim 2023 is now open!
+    #   color: primary
+    #   main_only: true
+    #   text: |
+    #     Please check out Call for Paper.
 
     # - text: Upcoming info.
     #   color: warning
@@ -144,7 +150,7 @@ conference:
 
   map:
     # Initial map center point
-    home_coord: 53.558572,9.9278215
+    home_coord: 53.5615586,9.9848718
     # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
     # The following do match the Bootstrap design not too badly:
     #   - Hydda.Full
@@ -158,7 +164,7 @@ conference:
     main_categories:
       - name: Keynote
         color: info
-      - name: Presenter
+      - name: Presentation
         color: success
       - name: Break
         color: dark

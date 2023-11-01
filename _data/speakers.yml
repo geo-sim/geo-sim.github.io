@@ -6,6 +6,66 @@
     - name: Profile
       absolute_url: https://joonseok.org
 
+
+- name: Emma Von Hoene
+  first_name: Emma
+  last_name: Von Hoene
+  year: 2023
+  affiliation: George Mason University
+- name: Amira Roess
+  first_name: Amira
+  last_name: Roess
+  year: 2023
+  affiliation: George Mason University
+- name: Shivani Achuthan
+  first_name: Shivani
+  last_name: Achuthan
+  year: 2023
+  affiliation: James Madison High School
+- name: Taylor Anderson
+  first_name: Taylor
+  last_name: Anderson
+  year: 2023
+  affiliation: George Mason University
+
+- name: Annika Bonerath
+  first_name: Annika
+  last_name: Bonerath
+  year: 2023
+  affiliation: University of Bonn
+- name: Yannick Orgeig
+  first_name: Yannick
+  last_name: Orgeig
+  year: 2023
+  affiliation: University of Bonn
+- name: Jan-Henrik Haunert
+  first_name: Jan-Henrik
+  last_name: Haunert
+  year: 2023
+  affiliation: University of Bonn
+- name: Youness Dehbi
+  first_name: Youness
+  last_name: Dehbi
+  year: 2023
+  affiliation: HafenCity University
+
+- name: Raunak Sarbajna
+  first_name: Raunak
+  last_name: Sarbajna
+  year: 2023
+  affiliation: University of Houston
+- name: Christoph F Eick
+  first_name: Christoph
+  last_name: Eick
+  year: 2023
+  affiliation: University of Houston
+
+- name: Aron Laszka
+  first_name: Aron
+  last_name: Laszka
+  year: 2023
+  affiliation: Pennsylvania State University
+
 - name: TBD
   first_name: TBD
   #last_name: TBD

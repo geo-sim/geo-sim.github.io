@@ -4,18 +4,49 @@ days:
   date: 2023-11-13
   year: 2023
   rooms:
-  - name: TBD
+  - name: Room A
     talks:
-      - name: TBD
-        time_start: '09:00'
-        time_end: '10:00'
-      - name: TBD
-        time_start: '10:00'
-        time_end: '11:00'
-      - name: TBD
-        time_start: '11:00'
-        time_end: '12:00'
-
+      # GeoSim
+      - name: Opening Remarks
+        time_start: '13:00'
+        time_end: '13:05'
+      - name: 'Advancing Geospatial Simulation in the Exascale Era: Modeling Planet-Scale Human Dynamics'
+        time_start: '13:05'
+        time_end: '14:00'
+      - name: A Framework for Simulating Emergent Health Behaviors in Spatial Agent-Based Models of Disease Spread
+        time_start: '14:00'
+        time_end: '14:20'
+      - name: 'PhobosBC: A Blockchain-based Crowdsourced Post-disaster Mapping System and its Agent-based Simulation'
+        time_start: '14:20'
+        time_end: '14:40'
+      - name: Integrating Optimization-Based Spatial Unit Allocation into a Multi-Agent Model for the Simulation of Urban Growth
+        time_start: '14:40'
+        time_end: '14:55'
+      - name: Closing Remarks
+        time_start: '14:55'
+        time_end: '15:00'
+      # Coffe Break
+      # - name: Coffe Break
+      #   time_start: '15:30'
+      #   time_end: '15:30'
+      # # SpatialEpi
+      # - name: Open Remakrs
+      #   time_start: '15:30'
+      #   time_end: '15:35'
+      # - name: TBD
+      #   time_start: '15:35'
+      #   time_end: '16:30'
+      # - name: Optimal Risk-aware POI Recommendations during Epidemics
+      #   time_start: '16:30'
+      #   time_end: '16:50'
+      # - name: 'EPIPOL: An Epidemiological Patterns of Life Simulation (Demonstration Paper)'
+      #   time_start: '16:50'
+      #   time_end: '17:10'
+      # - name: Closing Remarks
+      #   time_start: '17:10'
+      #   time_end: '17:15'
+      
+      
 
 # 2022
 - name: Tuesday
@@ -23,7 +54,7 @@ days:
   date: 2022-11-01
   year: 2022
   rooms:
-  - name: Room A
+  - name: TBD
     talks:
       - name: Opening Remarks
         time_start: '14:00'

@@ -1,5 +1,5 @@
 {% for speaker_name in talk.speakers -%}
-  {%- assign speaker = site.data.speakers | where: 'name', speaker_name | first -%}
+  {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
   {%- if site.conference.speakers.show_firstname -%}
     {%- assign speaker_short = speaker.first_name | append: ' ' | append: speaker.last_name -%}
   {%- else -%}
