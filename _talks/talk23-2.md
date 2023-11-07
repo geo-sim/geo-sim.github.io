@@ -1,10 +1,9 @@
 ---
 name: 'PhobosBC: A Blockchain-based Crowdsourced Post-disaster Mapping System and its Agent-based Simulation'
 speakers:
-  - Annika Bonerath
-  - Yannick Orgeig
-  - Jan-Henrik Haunert
-  - Youness Dehbi
+  - Raunak Sarbajna
+  - Christoph F Eick
+  - Aron Laszka
 categories:
   - Presentation
   - Research
