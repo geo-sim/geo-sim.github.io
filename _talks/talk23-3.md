@@ -1,9 +1,10 @@
 ---
 name: Integrating Optimization-Based Spatial Unit Allocation into a Multi-Agent Model for the Simulation of Urban Growth
 speakers:
-  - Raunak Sarbajna
-  - Christoph F Eick
-  - Aron Laszka
+  - Annika Bonerath
+  - Yannick Orgeig
+  - Jan-Henrik Haunert
+  - Youness Dehbi
 categories:
   - Presentation
   - Short Paper
