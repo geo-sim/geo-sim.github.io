@@ -109,6 +109,8 @@ conference:
     links:
       # - name: Call for paper
       #   relative_url: /cfp/
+      - name: Proceedings
+        absolute_url: https://dl.acm.org/doi/proceedings/10.1145/3615891
       - name: Program
         relative_url: /program/
       - name: SIGSPATIAL 2023
@@ -118,11 +120,16 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: GeoSim 2023 Program is updated!
+    - title: GeoSim 2023 Proceedings is released!
       color: primary
       main_only: true
       text: |
-        Please check out Program.
+        Please check out proceedings in ACM Digital Library.
+    # - title: GeoSim 2023 Program is updated!
+    #   color: primary
+    #   main_only: true
+    #   text: |
+    #     Please check out Program.
     # - title: GeoSim 2023 is now open!
     #   color: primary
     #   main_only: true
