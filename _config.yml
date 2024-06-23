@@ -2,7 +2,7 @@ title: GeoSim
 subtitle: ACM SIGSPATIAL International Workshop on GeoSpatial Simulation
 preposition: at
 description: >-
-  Monday November 13, 2023, Hamburg, Germany
+  Monday October 29, 2024, Atlanta, Georgia, USA
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://geo-sim.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -76,11 +76,13 @@ conference:
         relative_url: /talks/
       - name: Speakers
         relative_url: /speakers/
-      - name: Location
-        relative_url: /location/
+      # - name: Location
+      #   relative_url: /location/
       - name: Previous
         menu:
-          - name: 2023 (current)
+          - name: 2024 (current)
+            relative_site_url: /2024/
+          - name: 2023
             relative_site_url: /2023/
           - name: 2022
             absolute_url: https://geosim2022.blogspot.com
@@ -107,34 +109,34 @@ conference:
     #logo:
       #img: 'acmsigspatial-full.png'
     links:
-      # - name: Call for paper
-      #   relative_url: /cfp/
-      - name: Proceedings
-        absolute_url: https://dl.acm.org/doi/proceedings/10.1145/3615891
-      - name: Program
-        relative_url: /program/
-      - name: SIGSPATIAL 2023
-        absolute_url: https://sigspatial2023.sigspatial.org/
+      - name: Call for paper
+        relative_url: /cfp/
+      # - name: Proceedings
+      #   absolute_url: https://dl.acm.org/doi/proceedings/10.1145/3615891
+      # - name: Program
+      #   relative_url: /program/
+      - name: SIGSPATIAL 2024
+        absolute_url: https://sigspatial2024.sigspatial.org/
       #   disabled: true
       #   absolute_url: ''
 
   # Information boxes
   info_bars:
-    - title: GeoSim 2023 Proceedings is released!
-      color: primary
-      main_only: true
-      text: |
-        Please check out proceedings in ACM Digital Library.
+    # - title: GeoSim 2023 Proceedings is released!
+    #   color: primary
+    #   main_only: true
+    #   text: |
+    #     Please check out proceedings in ACM Digital Library.
     # - title: GeoSim 2023 Program is updated!
     #   color: primary
     #   main_only: true
     #   text: |
     #     Please check out Program.
-    # - title: GeoSim 2023 is now open!
-    #   color: primary
-    #   main_only: true
-    #   text: |
-    #     Please check out Call for Paper.
+    - title: GeoSim 2024 is now open!
+      color: primary
+      main_only: true
+      text: |
+        Please check out Call for Paper.
 
     # - text: Upcoming info.
     #   color: warning

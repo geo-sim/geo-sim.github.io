@@ -1,4 +1,44 @@
 years:
+- year: 2024
+  general_chair:
+    - name: Joon-Seok Kim
+      affiliation: Oak Ridge National Laboratory
+      department: Geospatial Science and Human Security Division
+      email_name: kimj1
+      domain: ornl.gov
+  pc_chair:
+    - name: Licia Amichi
+      affiliation: Oak Ridge National Laboratory
+      email_name: amichil
+      domain: ornl.gov
+    - name: Taylor Anderson
+      affiliation: George Mason University
+      email_name: tander6
+      domain: gmu.edu
+    - name: Andreas Zufle
+      affiliation: Emory University
+      department: Computer Science
+      email_name: azufle
+      domain: emory.edu
+  steering_committee:
+    - name: Andrew Crooks
+      affiliation: University at Bufflaro
+      department: Geography
+    - name: Suzana Dragicevic
+      affiliation: Simon Fraser University
+      department: Geography
+    - name: Hamdi Kavak
+      affiliation: George Mason University
+      department: Computational and Data Sciences
+    - name: Dieter Pfoser
+      affiliation: George Mason University
+      department: Geography and Geoinformation Science
+    - name: Carola Wenk
+      affiliation: Tulane University
+      department: Computer Science
+  program_committee:
+    - name: TBD
+
 - year: 2023
   general_chair:
     - name: Joon-Seok Kim
