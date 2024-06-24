@@ -54,8 +54,7 @@ unpublished research on all topics related to geospatial simulation including, b
 
 
 ## Submission site ##
-TBD
-
+[https://easychair.org/conferences/?conf=geosim2024](https://easychair.org/conferences/?conf=geosim2024)
 
 ## Paper Format ##
 
