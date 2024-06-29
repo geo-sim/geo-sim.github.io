@@ -4,7 +4,7 @@ title: Call for Paper
 year: 2024
 ---
 
-The 6th ACM SIGSPATIAL International Workshop on Geospatial Simulation (GeoSim 2024) focuses on all aspects of simulation 
+The 7th ACM SIGSPATIAL International Workshop on Geospatial Simulation (GeoSim 2024) focuses on all aspects of simulation 
 as a  general paradigm to model and predict spatial systems and generate  spatial data. 
 New simulation methodologies and frameworks, not  necessarily coming from the SIGSPATIAL community, 
 are encouraged to  participate. Also, this workshop is of interest to everyone who works with spatial data. 
@@ -44,10 +44,10 @@ unpublished research on all topics related to geospatial simulation including, b
 ## Important Date ##
 
 #### Submission deadline ####
-- TBD
+- August 30, 2024
 
 #### Notification ####
-- TBD
+- September 30, 2024
 
 #### Workshop date ####
 - October 29, 2024
