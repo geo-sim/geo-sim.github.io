@@ -44,10 +44,10 @@ unpublished research on all topics related to geospatial simulation including, b
 ## Important Date ##
 
 #### Submission deadline ####
-- TBD
+- August 30, 2024
 
 #### Notification ####
-- TBD
+- September 30, 2024
 
 #### Workshop date ####
 - October 29, 2024
