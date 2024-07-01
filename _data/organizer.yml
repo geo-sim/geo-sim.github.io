@@ -55,6 +55,8 @@ years:
       affiliation: Michigan State University
     - name: Liang Mao
       affiliation: University of Florida
+    - name: Hyesop Shin
+      affiliation: University of Auckland
     - name: Wenwu Tang
       affiliation: University of North Carolina at Charlotte
     - name: Paul Torrens
@@ -80,7 +82,7 @@ years:
       domain: emory.edu
   steering_committee:
     - name: Andrew Crooks
-      affiliation: University at Bufflaro
+      affiliation: University at Buffalo
       department: Geography
     - name: Suzana Dragicevic
       affiliation: Simon Fraser University
@@ -145,7 +147,7 @@ years:
       affiliation: ESRI
   steering_committee:
     - name: Andrew Crooks
-      affiliation: University at Bufflaro
+      affiliation: University at Buffalo
       department: Geography
     - name: Suzana Dragicevic
       affiliation: Simon Fraser University
