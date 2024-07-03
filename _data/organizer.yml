@@ -37,6 +37,8 @@ years:
       affiliation: Tulane University
       department: Computer Science
   program_committee:
+    - name: Jared Aldstadt
+      affiliation: University at Buffalo
     - name: Thomas Brinkhoff
       affiliation: Jade University Oldenburg
     - name: Moongi Choi
@@ -55,6 +57,8 @@ years:
       affiliation: Michigan State University
     - name: Liang Mao
       affiliation: University of Florida
+    - name: Ashwin Shashidharan
+      affiliation: ESRI
     - name: Hyesop Shin
       affiliation: University of Auckland
     - name: Wenwu Tang
