@@ -2,10 +2,10 @@ years:
 - year: 2024
   general_chair:
     - name: Joon-Seok Kim
-      affiliation: Oak Ridge National Laboratory
-      department: Geospatial Science and Human Security Division
-      email_name: kimj1
-      domain: ornl.gov
+      affiliation: Emory University
+      department: Computer Science
+      email_name: joonseok.kim
+      domain: emory.edu
   pc_chair:
     - name: Licia Amichi
       affiliation: Oak Ridge National Laboratory
@@ -46,13 +46,15 @@ years:
     - name: Suzana Dragicevic
       affiliation: Simon Fraser University
     - name: Philippe Giabbanelli
-      affiliation: Miami University
+      affiliation: Old Dominion University
     - name: Mona Hemmati
       affiliation: Columbia University
     - name: Alexander Hohl
       affiliation: University of Utah
     - name: Hyunjee Jin
       affiliation: Siemens
+    - name: Jeon-Young Kang
+      affiliation: Kyung Hee University
     - name: Arika Ligmann-Zielinska
       affiliation: Michigan State University
     - name: Liang Mao
