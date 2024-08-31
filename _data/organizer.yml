@@ -15,6 +15,10 @@ years:
       affiliation: George Mason University
       email_name: tander6
       domain: gmu.edu
+    - name: Ashwin Shashidharan
+      affiliation: ESRI
+      email_name: ashashidharan
+      domain: esri.com
     - name: Andreas Züfle
       affiliation: Emory University
       department: Computer Science
@@ -43,8 +47,6 @@ years:
       affiliation: Jade University Oldenburg
     - name: Moongi Choi
       affiliation: University of Utah
-    - name: Suzana Dragicevic
-      affiliation: Simon Fraser University
     - name: Philippe Giabbanelli
       affiliation: Old Dominion University
     - name: Mona Hemmati
