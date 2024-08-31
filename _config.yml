@@ -132,7 +132,12 @@ conference:
     #   main_only: true
     #   text: |
     #     Please check out Program.
-    - title: GeoSim 2024 is now open!
+    # - title: GeoSim 2024 is now open!
+    #   color: primary
+    #   main_only: true
+    #   text: |
+    #     Please check out Call for Paper.
+    - title: Submission deadline is extend.
       color: primary
       main_only: true
       text: |
