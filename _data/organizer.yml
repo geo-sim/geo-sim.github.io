@@ -6,11 +6,12 @@ years:
       department: Computer Science
       email_name: joonseok.kim
       domain: emory.edu
+    - name: Andreas Züfle
+      affiliation: Emory University
+      department: Computer Science
+      email_name: azufle
+      domain: emory.edu
   pc_chair:
-    - name: Licia Amichi
-      affiliation: Oak Ridge National Laboratory
-      email_name: amichil
-      domain: ornl.gov
     - name: Taylor Anderson
       affiliation: George Mason University
       email_name: tander6
@@ -19,11 +20,6 @@ years:
       affiliation: ESRI
       email_name: ashashidharan
       domain: esri.com
-    - name: Andreas Züfle
-      affiliation: Emory University
-      department: Computer Science
-      email_name: azufle
-      domain: emory.edu
   steering_committee:
     - name: Andrew Crooks
       affiliation: University at Buffalo
@@ -43,6 +39,8 @@ years:
   program_committee:
     - name: Jared Aldstadt
       affiliation: University at Buffalo
+    - name: Licia Amichi
+      affiliation: Oak Ridge National Laboratory
     - name: Thomas Brinkhoff
       affiliation: Jade University Oldenburg
     - name: Moongi Choi
