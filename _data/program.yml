@@ -1,4 +1,63 @@
 days:
+- name: Tuesday
+  abbr: Tu
+  date: 2024-09-29
+  year: 2024
+  rooms:
+  - name: Conference E
+    talks:
+      # GeoSim
+      - name: "GeoSim'24: Opening Remarks"
+        time_start: '13:00'
+        time_end: '13:05'
+      - name: 'Digital Twins: Merely a Catch Phrase or a Requirement for the Future?'
+        time_start: '13:05'
+        time_end: '14:00'
+      - name: 'A Visual Analytic Platform for Interactive Validation of Human Mobility Simulations'
+        time_start: '14:00'
+        time_end: '14:20'
+      - name: 'Coffee Break'
+        time_start: '14:20'
+        time_end: '14:35'
+      - name: 'Realistic Trajectory Generation using Simple Probabilistic Language Models'
+        time_start: '14:35'
+        time_end: '14:50'
+      - name: 'GeoLife+: Large-Scale Simulated Trajectory Datasets Calibrated to the GeoLife Dataset'
+        time_start: '14:50'
+        time_end: '15:05'
+      - name: 'Agent-based modeling of Covid-19 vaccine uptake in New York State: Information diffusion in hybrid spaces'
+        time_start: '15:05'
+        time_end: '15:25'
+      - name: 'Studying Contagious Disease Spread Utilizing Synthetic Populations Inspired by COVID-19: An Agent-based Modeling Framework'
+        time_start: '15:25'
+        time_end: '15:40'
+      - name: "GeoSim'24: Closing Remarks"
+        time_start: '15:40'
+        time_end: '15:45'
+      # Coffe Break
+      # - name: Coffe Break
+      #   time_start: '15:45'
+      #   time_end: '16:00'
+      # # SpatialEpi
+      # - name: Open Remakrs
+      #   time_start: '16:00'
+      #   time_end: '16:05'
+      # - name: TBD
+      #   time_start: '16:05'
+      #   time_end: '17:00'
+      # - name: Evaluating the Impact of Shape and Metric Selection on Human Perception in Geospatial Data Visualizations
+      #   time_start: '17:00'
+      #   time_end: '17:20'
+      # - name: 'CyberGIS-Vis for Democratizing Access to Scalable Spatiotemporal Geovisual Analytics: A Case Study of COVID-19'
+      #   time_start: '17:20'
+      #   time_end: '17:35'
+      # - name: 'Comparing Associations Of Chronic Health Outcomes with Social Determinants of Health (SDoH) Indices Using Machine Learning'
+      #   time_start: '17:35'
+      #   time_end: '17:55'
+      # - name: Closing Remarks
+      #   time_start: '17:55'
+      #   time_end: '18:0'
+
 - name: Monday
   abbr: Mo
   date: 2023-11-13

@@ -76,8 +76,8 @@ conference:
         relative_url: /talks/
       - name: Speakers
         relative_url: /speakers/
-      # - name: Location
-      #   relative_url: /location/
+      - name: Location
+        relative_url: /location/
       - name: Previous
         menu:
           - name: 2024 (current)
@@ -109,12 +109,12 @@ conference:
     #logo:
       #img: 'acmsigspatial-full.png'
     links:
-      - name: Call for paper
-        relative_url: /cfp/
-      # - name: Proceedings
-      #   absolute_url: https://dl.acm.org/doi/proceedings/10.1145/3615891
-      # - name: Program
-      #   relative_url: /program/
+      # - name: Call for paper
+      #   relative_url: /cfp/
+      - name: Proceedings
+        absolute_url: https://dl.acm.org/doi/proceedings/10.1145/3681770
+      - name: Program
+        relative_url: /program/
       - name: SIGSPATIAL 2024
         absolute_url: https://sigspatial2024.sigspatial.org/
       #   disabled: true
@@ -137,11 +137,21 @@ conference:
     #   main_only: true
     #   text: |
     #     Please check out Call for Paper.
-    - title: Submission deadline is extend.
+    # - title: Submission deadline is extend.
+    #   color: primary
+    #   main_only: true
+    #   text: |
+    #     Please check out Call for Paper.
+    - title: GeoSim 2024 Proceedings is released!
       color: primary
       main_only: true
       text: |
-        Please check out Call for Paper.
+        Please check out proceedings in ACM Digital Library.
+    - title: GeoSim 2024 Program is updated!
+      color: primary
+      main_only: true
+      text: |
+        Please check out Program.
 
     # - text: Upcoming info.
     #   color: warning
@@ -164,7 +174,8 @@ conference:
 
   map:
     # Initial map center point
-    home_coord: 53.5615586,9.9848718
+    home_coord: 33.7763358,-84.3897194
+    # home_coord: 53.5615586,9.9848718
     # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
     # The following do match the Bootstrap design not too badly:
     #   - Hydda.Full
@@ -182,6 +193,8 @@ conference:
         color: success
       - name: Break
         color: dark
+      - name: Remarks
+        color: light
 
     # Hide icons on talk overview page
     hide_icons: false
