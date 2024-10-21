@@ -9,6 +9,7 @@
     </a>
   </li>
   {%- for room in site.rooms -%}
+    {%- if room.year contains current_year or room.year == current_year %}
     <li class="nav-item">
       {%- if room.hide %}
         <span class="nav-item nav-link disabled">
@@ -20,6 +21,7 @@
         </a>
       {%- endif %}
     </li>
+    {%- endif %}
   {%- endfor -%}
   {%- for room in site.rooms -%}
     {%- assign room_displayed = false -%}
