@@ -4,7 +4,7 @@ subtitle: GeoSim 2024
 year: 2024
 layout: home
 description: >-
-  Monday October 29, 2024, Atlanta, Georgia, USA
+  Tuesday October 29, 2024, Atlanta, Georgia, USA
 ---
 Geospatial simulation is an effective tool to explore the physical and cyberspace (e.g., metaverse). New experiences gained from geospatial simulations can bring significant benefits including situation awareness, insight into environments, and entertainment. To take advantage of such simulations, it is crucial to advance the methodology of modeling and simulation, develop plausible models and apply them to domains, leveraging big data and evolving technologies. 
 
