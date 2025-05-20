@@ -2,7 +2,7 @@ title: GeoSim
 subtitle: ACM SIGSPATIAL International Workshop on GeoSpatial Simulation
 preposition: at
 description: >-
-  Tuesday October 29, 2024, Atlanta, Georgia, USA
+  Tuesday November 3, 2025, Minneapolis, MN, USA
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://geo-sim.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -70,17 +70,19 @@ conference:
         relative_url: /cfp/
       - name: Organizers
         relative_url: /organizers/
-      - name: Program
-        relative_url: /program/
-      - name: Talks
-        relative_url: /talks/
-      - name: Speakers
-        relative_url: /speakers/
-      - name: Location
-        relative_url: /location/
+      # - name: Program
+      #   relative_url: /program/
+      # - name: Talks
+      #   relative_url: /talks/
+      # - name: Speakers
+      #   relative_url: /speakers/
+      # - name: Location
+      #   relative_url: /location/
       - name: Previous
         menu:
-          - name: 2024 (current)
+          - name: 2025 (current)
+            relative_site_url: /2025/
+          - name: 2024
             relative_site_url: /2024/
           - name: 2023
             relative_site_url: /2023/
@@ -109,14 +111,14 @@ conference:
     #logo:
       #img: 'acmsigspatial-full.png'
     links:
-      # - name: Call for paper
-      #   relative_url: /cfp/
-      - name: Proceedings
-        absolute_url: https://dl.acm.org/doi/proceedings/10.1145/3681770
-      - name: Program
-        relative_url: /program/
-      - name: SIGSPATIAL 2024
-        absolute_url: https://sigspatial2024.sigspatial.org/
+      - name: Call for paper
+        relative_url: /cfp/
+      # - name: Proceedings
+      #   absolute_url: https://dl.acm.org/doi/proceedings/10.1145/3681770
+      # - name: Program
+      #   relative_url: /program/
+      - name: SIGSPATIAL 2025
+        absolute_url: https://sigspatial2025.sigspatial.org/
       #   disabled: true
       #   absolute_url: ''
 
@@ -142,16 +144,21 @@ conference:
     #   main_only: true
     #   text: |
     #     Please check out Call for Paper.
-    - title: GeoSim 2024 Proceedings is released!
+    # - title: GeoSim 2024 Proceedings is released!
+    #   color: primary
+    #   main_only: true
+    #   text: |
+    #     Please check out proceedings in ACM Digital Library.
+    # - title: GeoSim 2024 Program is updated!
+    #   color: primary
+    #   main_only: true
+    #   text: |
+    #     Please check out Program.
+    - title: GeoSim 2025 is now open!
       color: primary
       main_only: true
       text: |
-        Please check out proceedings in ACM Digital Library.
-    - title: GeoSim 2024 Program is updated!
-      color: primary
-      main_only: true
-      text: |
-        Please check out Program.
+        Please check out Call for Paper.
 
     # - text: Upcoming info.
     #   color: warning

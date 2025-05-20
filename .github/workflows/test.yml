@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-ruby@v1
 
       - name: Cache
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
@@ -29,8 +29,8 @@ jobs:
       - name: Install Bundler and Jekyll
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          gem install bundler -v '= 2.2.32'
-          bundle _2.2.32_ install --path vendor/bundle
+          gem install bundler -v '= 2.3.3'
+          bundle _2.3.3_ install --path vendor/bundle
 
       - name: Build website
         run: |
