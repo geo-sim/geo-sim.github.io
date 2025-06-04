@@ -37,7 +37,28 @@ years:
       affiliation: Tulane University
       department: Computer Science
   program_committee:
-    - name: TBD
+    - name: Jared Aldstadt
+      affiliation: University at Buffalo
+    - name: Thomas Brinkhoff
+      affiliation: Jade University Oldenburg
+    - name: Alexander Hohl
+      affiliation: University of Utah
+    - name: Hyunjee Jin
+      affiliation: Siemens
+    - name: Jeon-Young Kang
+      affiliation: Kyung Hee University
+    - name: Arika Ligmann-Zielinska
+      affiliation: Michigan State University
+    - name: Liang Mao
+      affiliation: University of Florida
+    - name: Ashwin Shashidharan
+      affiliation: ESRI
+    - name: Hyesop Shin
+      affiliation: University of Auckland
+    - name: Wenwu Tang
+      affiliation: University of North Carolina at Charlotte
+    - name: Paul Torrens
+      affiliation: New York University
 
 - year: 2024
   general_chair:
