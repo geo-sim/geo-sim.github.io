@@ -66,18 +66,18 @@ conference:
     #   img: 'acmsigspatial-full.png'
     #   url: 'https://geosim.org/'
     links:
-      - name: Call For Paper
+      - name: Call For Papers
         relative_url: /cfp/
       - name: Organizers
         relative_url: /organizers/
-      # - name: Program
-      #   relative_url: /program/
-      # - name: Talks
-      #   relative_url: /talks/
-      # - name: Speakers
-      #   relative_url: /speakers/
-      # - name: Location
-      #   relative_url: /location/
+      - name: Program
+        relative_url: /program/
+      - name: Talks
+        relative_url: /talks/
+      - name: Speakers
+        relative_url: /speakers/
+      - name: Location
+        relative_url: /location/
       - name: Previous
         menu:
           - name: 2025 (current)
@@ -111,7 +111,7 @@ conference:
     #logo:
       #img: 'acmsigspatial-full.png'
     links:
-      - name: Call for paper
+      - name: Call for papers
         relative_url: /cfp/
       # - name: Proceedings
       #   absolute_url: https://dl.acm.org/doi/proceedings/10.1145/3681770
@@ -138,12 +138,12 @@ conference:
     #   color: primary
     #   main_only: true
     #   text: |
-    #     Please check out Call for Paper.
+    #     Please check out Call for Papers.
     - title: Submission deadline is extended.
       color: primary
       main_only: true
       text: |
-        Please check out Call for Paper.
+        Please check out Call for Papers.
     # - title: GeoSim 2024 Proceedings is released!
     #   color: primary
     #   main_only: true
@@ -158,7 +158,7 @@ conference:
     #   color: primary
     #   main_only: true
     #   text: |
-    #     Please check out Call for Paper.
+    #     Please check out Call for Papers.
 
     # - text: Upcoming info.
     #   color: warning
@@ -181,7 +181,8 @@ conference:
 
   map:
     # Initial map center point
-    home_coord: 33.7763358,-84.3897194
+    home_coord: 44.9743662,-93.2321846
+    # home_coord: 33.7763358,-84.3897194
     # home_coord: 53.5615586,9.9848718
     # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
     # The following do match the Bootstrap design not too badly:

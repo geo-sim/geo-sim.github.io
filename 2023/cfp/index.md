@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Call for Paper
+title: Call for Papers
 year: 2023
 ---
 
