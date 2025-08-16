@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-conference"
-  spec.version       = "3.6.1"
+  spec.version       = "3.7.1"
   spec.authors       = ["Lorenz Schmid"]
   spec.email         = ["lorenzschmid@users.noreply.github.com"]
 
@@ -12,9 +12,8 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
-  spec.add_runtime_dependency "jekyll", "= 4.2.2"
+  spec.add_runtime_dependency "jekyll", "~> 4.0"
 
-  spec.add_development_dependency "bundler", "= 2.3.3"
-  spec.add_development_dependency "logger", "= 1.3.0"
+  spec.add_development_dependency "bundler", "~> 2.1"
   spec.add_development_dependency "rake", "~> 12.0"
 end

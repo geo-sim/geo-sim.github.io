@@ -139,11 +139,11 @@ conference:
     #   main_only: true
     #   text: |
     #     Please check out Call for Paper.
-    # - title: Submission deadline is extend.
-    #   color: primary
-    #   main_only: true
-    #   text: |
-    #     Please check out Call for Paper.
+    - title: Submission deadline is extended.
+      color: primary
+      main_only: true
+      text: |
+        Please check out Call for Paper.
     # - title: GeoSim 2024 Proceedings is released!
     #   color: primary
     #   main_only: true
@@ -154,11 +154,11 @@ conference:
     #   main_only: true
     #   text: |
     #     Please check out Program.
-    - title: GeoSim 2025 is now open!
-      color: primary
-      main_only: true
-      text: |
-        Please check out Call for Paper.
+    # - title: GeoSim 2025 is now open!
+    #   color: primary
+    #   main_only: true
+    #   text: |
+    #     Please check out Call for Paper.
 
     # - text: Upcoming info.
     #   color: warning
