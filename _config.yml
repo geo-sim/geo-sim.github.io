@@ -70,14 +70,14 @@ conference:
         relative_url: /cfp/
       - name: Organizers
         relative_url: /organizers/
-      # - name: Program
-      #   relative_url: /program/
-      # - name: Talks
-      #   relative_url: /talks/
-      # - name: Speakers
-      #   relative_url: /speakers/
-      # - name: Location
-      #   relative_url: /location/
+      - name: Program
+        relative_url: /program/
+      - name: Talks
+        relative_url: /talks/
+      - name: Speakers
+        relative_url: /speakers/
+      - name: Location
+        relative_url: /location/
       - name: Previous
         menu:
           - name: 2025 (current)
@@ -181,7 +181,8 @@ conference:
 
   map:
     # Initial map center point
-    home_coord: 33.7763358,-84.3897194
+    home_coord: 44.9743662,-93.2321846
+    # home_coord: 33.7763358,-84.3897194
     # home_coord: 53.5615586,9.9848718
     # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
     # The following do match the Bootstrap design not too badly:
