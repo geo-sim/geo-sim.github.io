@@ -12,7 +12,8 @@ The simulation methods that will be presented and  discussed in the workshop sho
 community by producing benchmark datasets that can be parameterized and scaled. 
 Simulated data sets will be made available to the community via the website.
 
-The workshop seeks high-quality full (8-10 pages) and short (up to 4 pages) papers that will be peer-reviewed. 
+The workshop seeks high-quality full (up to 10 pages) and short (up to 4 pages) papers that will be peer-reviewed. 
+Following the main conference, full papers are limited to 10 pages (excluding references), with up to 2 additional pages after the references to be used for appendices.
 Once accepted, at least one author is required to register for the workshop and the ACM SIGSPATIAL conference, 
 as well as attend the workshop to present the accepted work which will then appear in the ACM Digital Library.
 
