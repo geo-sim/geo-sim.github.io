@@ -49,7 +49,8 @@ unpublished research on all topics related to geospatial simulation including, b
 - August 23, 2025 (extended)
 
 #### Notification ####
-- September 15, 2025
+- ~~September 15, 2025~~
+- September 20, 2025
 
 #### Workshop date ####
 - November 3, 2025
