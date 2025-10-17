@@ -65,6 +65,16 @@
     </ui>
     <br />
   {%- endif -%}
+
+  {%- if organizers.review_committee -%}
+    <h4>Review Committee</h4>
+    <ui>
+    {%- for org in organizers.review_committee -%}
+      <li><b>{{org.name}}</b>{% if org.affiliation %}, {{org.affiliation}}{% endif %}{% if org.department %}, {{org.department}}{% endif %}</li>
+    {%- endfor -%}
+    </ui>
+    <br />
+  {%- endif -%}
 {%- endfor -%}
 
 {{ content }}

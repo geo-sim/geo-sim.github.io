@@ -4,7 +4,7 @@ subtitle: GeoSim 2025
 year: 2025
 layout: home
 description: >-
-  Tuesday November 3, 2025, Minneapolis, MN, USA
+  Monday November 3, 2025, Minneapolis, MN, USA
 ---
 Geospatial simulation is an effective tool to explore the physical and cyberspace (e.g., metaverse). New experiences gained from geospatial simulations can bring significant benefits including situation awareness, insight into environments, and entertainment. To take advantage of such simulations, it is crucial to advance the methodology of modeling and simulation, develop plausible models and apply them to domains, leveraging big data and evolving technologies. 
 

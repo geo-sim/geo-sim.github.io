@@ -45,12 +45,16 @@ years:
       affiliation: Florida State University
     - name: Alexander Hohl
       affiliation: University of Utah
+    - name: Nathan Holt
+      affiliation: L3Harris Technologies, Inc.
     - name: Hyunjee Jin
       affiliation: Siemens
     - name: Jeon-Young Kang
       affiliation: Kyung Hee University
     - name: Arika Ligmann-Zielinska
       affiliation: Michigan State University
+    - name: Sandro Reia
+      affiliation: George Mason University
     - name: Liang Mao
       affiliation: University of Florida
     - name: Matthias Schubert
@@ -63,6 +67,9 @@ years:
       affiliation: University of North Carolina at Charlotte
     - name: Paul Torrens
       affiliation: New York University
+  review_committee:
+    - name: Mauryan Uppalapati
+      affiliation: Tulane University
 
 - year: 2024
   general_chair:

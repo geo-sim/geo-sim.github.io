@@ -2,7 +2,7 @@ title: GeoSim
 subtitle: ACM SIGSPATIAL International Workshop on GeoSpatial Simulation
 preposition: at
 description: >-
-  Tuesday November 3, 2025, Minneapolis, MN, USA
+  Monday November 3, 2025, Minneapolis, MN, USA
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://geo-sim.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -111,12 +111,12 @@ conference:
     #logo:
       #img: 'acmsigspatial-full.png'
     links:
-      - name: Call for papers
-        relative_url: /cfp/
+      # - name: Call for papers
+      #   relative_url: /cfp/
       # - name: Proceedings
       #   absolute_url: https://dl.acm.org/doi/proceedings/10.1145/3681770
-      # - name: Program
-      #   relative_url: /program/
+      - name: Program
+        relative_url: /program/
       - name: SIGSPATIAL 2025
         absolute_url: https://sigspatial2025.sigspatial.org/
       #   disabled: true
@@ -139,11 +139,11 @@ conference:
     #   main_only: true
     #   text: |
     #     Please check out Call for Papers.
-    - title: Submission deadline is extended.
-      color: primary
-      main_only: true
-      text: |
-        Please check out Call for Papers.
+    # - title: Submission deadline is extended.
+    #   color: primary
+    #   main_only: true
+    #   text: |
+    #     Please check out Call for Papers.
     # - title: GeoSim 2024 Proceedings is released!
     #   color: primary
     #   main_only: true
@@ -159,6 +159,11 @@ conference:
     #   main_only: true
     #   text: |
     #     Please check out Call for Papers.
+    - title: GeoSim 2025 Program is updated!
+      color: primary
+      main_only: true
+      text: |
+        Please check out Program.
 
     # - text: Upcoming info.
     #   color: warning
