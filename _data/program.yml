@@ -1,4 +1,61 @@
 days:
+- name: Monday
+  abbr: Mo
+  date: 2025-11-03
+  year: 2025
+  rooms:
+  - name: Think 5
+    talks:
+      # GeoSim
+      - name: "GeoSim'25: Opening Remarks"
+        time_start: '10:30'
+        time_end: '10:35'
+      - name: 'A Scalable Multi-Modal Framework for High-Fidelity Distributed Human Mobility Simulations'
+        time_start: '10:35'
+        time_end: '10:55'
+      - name: 'Experiential geosimulation'
+        time_start: '10:55'
+        time_end: '11:15'
+      - name: 'STAAR-FM: Scalable Terrain-Aware Adaptive Resolution Framework for Flow Modeling'
+        time_start: '11:15'
+        time_end: '11:35'
+      - name: 'An Agile Design of Activity-based Mobility Intervention using Large Language Models'
+        time_start: '11:35'
+        time_end: '11:55'
+      - name: 'Speak to Simulate: An LLM-Guided Agentic Framework for Traffic Simulation in SUMO'
+        time_start: '11:55'
+        time_end: '12:10'
+      - name: 'Knowledge-Guided Large Language Models for Enhancing Agent-Based Wildfire Spatial Simulation'
+        time_start: '12:10'
+        time_end: '12:30'
+      - name: 'Lunch (on your own)'
+        time_start: '12:30'
+        time_end: '14:00'
+      - name: 'Utilizing Artificial Intelligence for Geospatial Simulations and Cities: Opportunities and Challenges'
+        time_start: '14:00'
+        time_end: '14:50'
+      - name: 'Towards Surrogate Models with Hybrid Spatial Neural Networks: A Summary of Results'
+        time_start: '14:50'
+        time_end: '15:10'
+      - name: 'GeoGen I: Towards General Geospatial Point Data Generation from Text'
+        time_start: '15:10'
+        time_end: '15:30'
+      - name: 'Coffee Break'
+        time_start: '15:30'
+        time_end: '16:00'
+      - name: 'TraSGen: A Distributed, Scalable and Continuous Trajectory Stream Generator'
+        time_start: '16:00'
+        time_end: '16:20'
+      - name: 'SpecSwin: A Hyperspectral Data Simulation Framework for Scalable Geospatial Modeling'
+        time_start: '16:20'
+        time_end: '16:40'
+      - name: 'Generative Modeling of Land Cover Data for Spatial Simulation'
+        time_start: '16:40'
+        time_end: '16:55'
+      - name: "GeoSim'25: Closing Remarks"
+        time_start: '16:55'
+        time_end: '17:00'
+
 - name: Tuesday
   abbr: Tu
   date: 2024-09-29

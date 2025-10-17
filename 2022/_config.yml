@@ -1,0 +1,194 @@
+title: GeoSim 2022
+subtitle: 5th ACM SIGSPATIAL International Workshop on GeoSpatial Simulation (GeoSim 2023)
+preposition: at
+description: >-
+  Monday November 13, 2022, Hamburg, Germany
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://geo-sim.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+
+theme: jekyll-theme-conference
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
+# Additional exclude from processing
+exclude:
+  - .github/
+  - README.md
+  - LICENSE.md
+  - REDISTRIBUTED.md
+  - purgecss.config.js
+
+# Collections and their defaults
+collections:
+  talks:
+    output: true
+    permalink: /:collection/:title/
+  speakers:
+    output: true
+    permalink: /:collection/:title/
+  rooms:
+    output: true
+    permalink: /:collection/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: speakers
+    values:
+      layout: speaker
+  - scope:
+      path: ""
+      type: rooms
+    values:
+      layout: room
+
+
+conference:
+
+  # Language
+  lang: en
+
+  # Show theme errors:
+  show_errors: True
+
+  # Navigation bar
+  navigation:
+    logo:
+      name: ACM SIGSPATIAL
+      img: 'acmsigspatial-full.png'
+      url: 'https://geosim.org/'
+    links:
+      - name: Call For Paper
+        relative_url: /2022/cfp/
+      - name: Organizers
+        relative_url: /2022/organizers/
+      - name: Program
+        relative_url: /program/
+      - name: Talks
+        relative_url: /talks/
+      - name: Speakers
+        relative_url: /speakers/
+      - name: Location
+        relative_url: /location/
+      - name: Previous
+        menu:
+          - name: 2023 (current)
+            disabled: true
+          - name: 2022
+            relative_url: /2022/
+          - name: 2021
+            relative_url: /2021/
+          - name: 2020
+            relative_url: /2020/
+          - name: 2019                        
+            relative_url: /2019/
+          - name: 2018                        
+            relative_url: /2018/
+
+
+  # Link Preview for Sharing
+  link_preview:
+    # also adapt "preposition" property at top for more meaningful descriptions
+    disable: false
+    img:
+      twitter: 'twitter_preview.png'      # inside /assets/images/
+      open_graph: 'facebook_preview.png'  # inside /assets/images/
+
+  # Main landing page
+  main:
+    #logo:
+      #img: 'acmsigspatial-full.png'
+    links:
+      - name: Call for paper
+        relative_url: /cfp/
+      - name: Venue
+        relative_url: /location/
+      - name: Program
+        disabled: true
+        absolute_url: ''
+
+  # Information boxes
+  info_bars:
+    - title: GeoSim 2023 Website is now open!
+      color: primary
+      main_only: true
+      text: |
+        Please find information.
+
+        ---
+
+        Submission guidline is ...
+    - text: Please join us.
+      color: warning
+      pages_only: true
+
+  # Live indications
+  live:
+    date: 01.01.2020
+    timezone: GMT+1
+    stop:       240  # in minutes
+    streaming:
+      enable: true
+      pause:     60  # in minutes
+      prepend:    5  # in minutes
+      extend:     5  # in minutes
+    demo:
+      enable: false
+      duration: 300  # in seconds
+      pause:     10  # in seconds
+
+  map:
+    # Initial map center point
+    home_coord: 53.558572,9.9278215
+    # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
+    # The following do match the Bootstrap design not too badly:
+    #   - Hydda.Full
+    #   - Thunderforest.Neighbourhood
+    #   - Esri.WorldTopoMap
+    map_provider: "OpenStreetMap.Mapnik"
+    default_zoom: 17
+
+  talks:
+    # Talk categories
+    main_categories:
+      - name: Keynote
+        color: info
+      - name: Presenter
+        color: success
+
+    # Hide icons on talk overview page
+    hide_icons: false
+
+  speakers:
+    # Show first and last name
+    show_firstname: true
+
+  location:
+    # Disable links to locations
+    hide: false
+    # URL of location / room overview page
+    url: '/location'
+    # Main page title shown on location/room navigation bar
+    navbar_title: 'Location'
+    # Show map on location main page
+    map: true
+
+  program:
+    # URL of program page
+    url: '/program'
+
+    # Time steps in program table
+    time_steps: 15 # in minutes
+
+    # Show intermediary time steps (next to full hours)
+    show_alltimes: true
+
+
