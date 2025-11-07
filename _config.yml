@@ -113,8 +113,8 @@ conference:
     links:
       # - name: Call for papers
       #   relative_url: /cfp/
-      # - name: Proceedings
-      #   absolute_url: https://dl.acm.org/doi/proceedings/10.1145/3681770
+      - name: Proceedings
+        absolute_url: https://dl.acm.org/doi/pdf/10.1145/3764921
       - name: Program
         relative_url: /program/
       - name: SIGSPATIAL 2025
@@ -159,11 +159,16 @@ conference:
     #   main_only: true
     #   text: |
     #     Please check out Call for Papers.
-    - title: GeoSim 2025 Program is updated!
+    # - title: GeoSim 2025 Program is updated!
+    #   color: primary
+    #   main_only: true
+    #   text: |
+    #     Please check out Program.
+    - title: GeoSim 2025 Proceedings is released!
       color: primary
       main_only: true
       text: |
-        Please check out Program.
+        Please check out proceedings in ACM Digital Library.
 
     # - text: Upcoming info.
     #   color: warning

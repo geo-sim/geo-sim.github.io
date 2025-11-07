@@ -12,3 +12,5 @@ The purpose of the GeoSpatial Simulation workshop (GeoSim 2023) is to bring toge
 
 GeoSim 2023 Participants:
 ![Group photo](/assets/images/geosim23_group_photo.jpg)
+
+[GeoSim 2023 Proceedings in ACM Digital Library](https://dl.acm.org/doi/proceedings/10.1145/3615891)

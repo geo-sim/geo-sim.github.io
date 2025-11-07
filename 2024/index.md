@@ -12,3 +12,7 @@ The purpose of the GeoSpatial Simulation workshop (GeoSim 2024) is to bring toge
 
 GeoSim 2024 Participants:
 ![Group photo](/assets/images/geosim24_group_photo.jpg)
+
+[GeoSim 2024 Proceedings in ACM Digital Library](https://dl.acm.org/doi/proceedings/10.1145/3681770)
+
+[GeoSim 2024 Workshop Report](https://dl.acm.org/doi/10.1145/3757932.3757937)
