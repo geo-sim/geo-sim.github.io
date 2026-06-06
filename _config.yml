@@ -2,7 +2,7 @@ title: GeoSim
 subtitle: ACM SIGSPATIAL International Workshop on GeoSpatial Simulation
 preposition: at
 description: >-
-  Monday November 3, 2025, Minneapolis, MN, USA
+  Tuesday November 3, 2026, Riverside, CA, USA
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://geo-sim.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -80,7 +80,9 @@ conference:
         relative_url: /location/
       - name: Previous
         menu:
-          - name: 2025 (current)
+          - name: 2026 (current)
+            relative_site_url: /2026/
+          - name: 2025
             relative_site_url: /2025/
           - name: 2024
             relative_site_url: /2024/
@@ -111,14 +113,14 @@ conference:
     #logo:
       #img: 'acmsigspatial-full.png'
     links:
-      # - name: Call for papers
-      #   relative_url: /cfp/
-      - name: Proceedings
-        absolute_url: https://dl.acm.org/doi/pdf/10.1145/3764921
+      - name: Call for papers
+        relative_url: /cfp/
+      # - name: Proceedings
+      #   absolute_url: https://dl.acm.org/doi/pdf/10.1145/3764921
       - name: Program
         relative_url: /program/
-      - name: SIGSPATIAL 2025
-        absolute_url: https://sigspatial2025.sigspatial.org/
+      - name: SIGSPATIAL 2026
+        absolute_url: https://sigspatial2026.sigspatial.org/
       #   disabled: true
       #   absolute_url: ''
 
@@ -164,11 +166,16 @@ conference:
     #   main_only: true
     #   text: |
     #     Please check out Program.
-    - title: GeoSim 2025 Proceedings is released!
+    # - title: GeoSim 2025 Proceedings is released!
+    #   color: primary
+    #   main_only: true
+    #   text: |
+    #     Please check out proceedings in ACM Digital Library.
+    - title: GeoSim 2026 is now open!
       color: primary
       main_only: true
       text: |
-        Please check out proceedings in ACM Digital Library.
+        Please check out Call for Papers.
 
     # - text: Upcoming info.
     #   color: warning
@@ -191,7 +198,8 @@ conference:
 
   map:
     # Initial map center point
-    home_coord: 44.9743662,-93.2321846
+    home_coord: 33.9856907,-117.3755242
+    # home_coord: 44.9743662,-93.2321846
     # home_coord: 33.7763358,-84.3897194
     # home_coord: 53.5615586,9.9848718
     # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
