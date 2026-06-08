@@ -55,14 +55,14 @@ unpublished research on all topics related to geospatial simulation including, b
 
 
 ## Submission site ##
-- TBD
+[https://easychair.org/conferences/?conf=geosim2026](https://easychair.org/conferences/?conf=geosim2026)
 
 ## Paper Format ##
 
 Manuscripts should be submitted in PDF format and formatted using the ACM camera-ready templates available at [http://www.acm.org/publications/proceedings-template](http://www.acm.org/publications/proceedings-template). For latex users, please make sure that you choose `sigconf` type (e.g., `\documentclass[sigconf]{acmart}`) in your latex file. Submissions to GeoSim are single-blind -- i.e., the names and affiliations of the authors should be listed in the submitted version.
 
 ## Contact ##
-TBD
+Please contact geosim2026@easychair.org if you have questions about GeoSim 2026.
 
 ---
 
