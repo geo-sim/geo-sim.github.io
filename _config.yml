@@ -171,7 +171,12 @@ conference:
     #   main_only: true
     #   text: |
     #     Please check out proceedings in ACM Digital Library.
-    - title: GeoSim 2026 is now open!
+    # - title: GeoSim 2026 is now open!
+    #   color: primary
+    #   main_only: true
+    #   text: |
+    #     Please check out Call for Papers.
+    - title: Submission deadline is extended to 8/22.
       color: primary
       main_only: true
       text: |
