@@ -45,7 +45,7 @@ unpublished research on all topics related to geospatial simulation including, b
 ## Important Date ##
 
 #### Submission deadline ####
-- August 15, 2026
+- ~~August 15, 2026~~ August 22, 2026
 
 #### Notification ####
 - September 15, 2026
