@@ -6,6 +6,11 @@ years:
       department: Computer Science
       email_name: joonseok.kim
       domain: emory.edu
+    - name: Andreas Züfle
+      affiliation: Emory University
+      department: Computer Science
+      email_name: azufle
+      domain: emory.edu
   pc_chair:
     - name: Taylor Anderson
       affiliation: George Mason University
@@ -15,11 +20,6 @@ years:
       affiliation: Oak Ridge National Laboratory
       email_name: amichil
       domain: ornl.gov
-    - name: Andreas Züfle
-      affiliation: Emory University
-      department: Computer Science
-      email_name: azufle
-      domain: emory.edu
   steering_committee:
     - name: Andrew Crooks
       affiliation: University at Buffalo
