@@ -41,12 +41,14 @@ years:
       affiliation: University at Buffalo
     - name: Thomas Brinkhoff
       affiliation: Jade University Oldenburg
+    - name: Moongi Choi
+      affiliation: Florida State University
     - name: Alexander Hohl
       affiliation: University of Utah
-    - name: Hyunjee Jin
-      affiliation: Siemens
     - name: Na Jiang
       affiliation: Hong Kong University of Science and Technology (Guangzhou)
+    - name: Hyunjee Jin
+      affiliation: Siemens
     - name: Jeon-Young Kang
       affiliation: Kyung Hee University
     - name: Arika Ligmann-Zielinska
@@ -55,17 +57,21 @@ years:
       affiliation: University of Florida
     - name: Alexander Michels
       affiliation: University of Texas at Dallas
-    - name: Samarth Swarup
-      affiliation: University of Virginia
+    - name: Matthias Schubert
+      affiliation: Ludwig Maximilian University of Munich
     - name: Ashwin Shashidharan
       affiliation: ESRI
+    - name: Samarth Swarup
+      affiliation: University of Virginia
     - name: Wenwu Tang
       affiliation: University of North Carolina at Charlotte
     - name: Gautam Thakur
       affiliation: Oak Ridge National Laboratory
     - name: Paul Torrens
       affiliation: New York University
-    - name: (Updated on June 25)
+  review_committee:
+    - name: Shuokang Huang
+      affiliation: Imperial College London
 
 - year: 2025
   general_chair:
