@@ -1,6 +1,6 @@
 ---
 name: "GeoSim'26: Closing Remarks"
-year: 2025
+year: 2026
 categories:
   - Remarks
 ---
