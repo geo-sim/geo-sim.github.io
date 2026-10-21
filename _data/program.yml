@@ -34,7 +34,7 @@ days:
       - name: "Coffee Break"
         time_start: '10:00'
         time_end: '10:30'
-      - name: "Keynote: Toward Global-Scale AI-Driven Digital Twins of Earth's Land Ecosystems"
+      - name: "Toward Global-Scale AI-Driven Digital Twins of Earth's Land Ecosystems"
         time_start: '10:30'
         time_end: '11:20'
       - name: 'Persistent Geospatial Outage Scenario Construction for Interdependent Infrastructure Simulation'
