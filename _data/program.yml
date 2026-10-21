@@ -30,7 +30,7 @@ days:
         time_end: '9:47'
       - name: 'GeoScout: A Conversational Agentic GeoAI Framework for Spatial Decision Support in Methane Leak Detection and Repair'
         time_start: '9:47'
-        time_end: '9:59'
+        time_end: '10:00'
       - name: "Coffee Break"
         time_start: '10:00'
         time_end: '10:30'
