@@ -1,5 +1,5 @@
 ---
-name: 'A When Mobility Data Gets Noisy: The Need for Simulating Realistic Noise Models'
+name: 'When Mobility Data Gets Noisy: The Need for Simulating Realistic Noise Models'
 speakers:
   - Erfan Hosseini Sereshgi
   - Lance Kennedy
