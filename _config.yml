@@ -115,8 +115,8 @@ conference:
     links:
       - name: Call for papers
         relative_url: /cfp/
-      # - name: Proceedings
-      #   absolute_url: https://dl.acm.org/doi/pdf/10.1145/3764921
+      - name: Proceedings
+        absolute_url: https://dl.acm.org/doi/proceedings/10.1145/3849737
       - name: Program
         relative_url: /program/
       - name: SIGSPATIAL 2026
